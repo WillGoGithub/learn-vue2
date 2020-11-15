@@ -1,4 +1,5 @@
 # Hot Key
+> https://code.visualstudio.com/shortcuts/keyboard-shortcuts-windows.pdf
 
 ## General
 
@@ -128,7 +129,19 @@ Ctrl + Shift + Alt + (arrow key)
 
 ## Rich languages editing
 Alt + .
+> Trigger suggestion
+
+Shift + Alt + .
 > Quick Fix
+
+Shift + Alt + F
+> Format document
+
+F12
+> Go to Definition
+
+Alt + F12
+> Peek Definition
 
 Ctrl + U Ctrl + C
 > Uppercase
@@ -142,13 +155,116 @@ Ctrl + L Ctrl + C
 Shift + F12
 > Show References
 
--
-<!-- 12331 -->
-12
-12
-    213
+F2
+> Rename Symbol
 
+---
 
-{ 12313 }
-(132)
-[ 123 ]
+## Editor management
+Ctrl + W
+> Close editor
+
+Ctrl + \
+> Split editor
+
+Ctrl + 1 / 2 / 3
+> Focus into 1st, 2nd or 3rd editor group
+
+Ctrl + Shift + PgUp / PgDn
+> Move editor left / right
+
+---
+
+## File management
+
+Ctrl + N
+> New File
+
+Ctrl + O
+> Open File...
+
+Ctrl + K S
+> Save All
+
+Ctrl + Shift + T
+> Reopen closed editor
+
+Ctrl + Tab
+> Open next
+
+Ctrl + Shift + Tab
+> Open previous
+
+Ctrl + K P
+> Copy path of active file
+
+Ctrl + K R
+> Reveal active file in Explorer
+
+---
+
+## Display
+
+F11
+> Toggle full screen
+
+Shift + Alt + 0
+> Toggle editor layout (horizontal/vertical)
+
+Ctrl + = / -
+> Zoom in/out
+
+Ctrl + B
+> Toggle Sidebar visibility
+
+Ctrl + Shift + E
+> Show Explorer / Toggle focus
+
+Ctrl + Shift + F
+> Show Search
+
+Ctrl + Shift + G
+> Show Source Control
+
+Ctrl + Shift + D
+> Show Debug
+
+Ctrl + Shift + X
+> Show Extensions
+
+Ctrl + Shift + H
+> Replace in files
+
+Ctrl + Shift + J
+> Toggle Search details
+
+Ctrl + Shift + U
+> Show Output panel
+
+Ctrl + K V
+> Open Markdown preview to the side
+
+Ctrl + K Z
+> Zen Mode (Esc Esc to exit)
+
+---
+
+## Debug
+
+F9
+> Toggle breakpoint
+
+F5
+> Start/Continue
+
+Shift + F5
+> Stop
+
+F11 / Shift + F11
+> Step into/out
+
+F10
+> Step over
+
+Ctrl + K Ctrl + I
+> Show hover
