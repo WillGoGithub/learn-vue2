@@ -1,7 +1,7 @@
 const app = Vue.createApp({
     custom: 'hello',
     inject: ['user'],
-    template: `
+    template: /* html */ `
         <div>
             {{ user }}
         </div>
