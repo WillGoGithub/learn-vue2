@@ -51,3 +51,7 @@ app.directive('focus', {
 app.mount('#my-app')
 
 app.provide('user', 'admin')
+
+setTimeout(() => {
+    app.unmount('#my-app')
+}, 5000);
